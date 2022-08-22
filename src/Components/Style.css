@@ -387,7 +387,7 @@ footer div h1 span {
 }
 @media (max-width: 700px){
     .cards2{
-        gap: 10px;
+        gap: 10pxg;
     }
 }
 
