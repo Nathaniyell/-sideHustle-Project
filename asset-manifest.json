@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/sideHustle-Project/static/css/main.48be5f45.css",
+    "main.js": "/sideHustle-Project/static/js/main.f9354e74.js",
+    "static/media/nath.jpg": "/sideHustle-Project/static/media/nath.57e3350966c7c8090049.jpg",
+    "index.html": "/sideHustle-Project/index.html",
+    "main.48be5f45.css.map": "/sideHustle-Project/static/css/main.48be5f45.css.map",
+    "main.f9354e74.js.map": "/sideHustle-Project/static/js/main.f9354e74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48be5f45.css",
+    "static/js/main.f9354e74.js"
+  ]
+}
