@@ -385,13 +385,9 @@ footer div h1 span {
     }
 
 }
-@media (max-width: 700px){
-    .cards2{
-        gap: 10pxg;
-    }
-}
 
-@media (max-width: 600px) {
+
+@media (max-width: 660px) {
     .cards2 {
         grid-template-columns: 50% 50%;
         gap: 15px;
@@ -429,7 +425,7 @@ footer div h1 span {
 
 }
 
-@media (max-width: 575px) {
+@media (max-width: 585px) {
     .cards2 {
         grid-template-columns: 1fr;
     }

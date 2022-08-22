@@ -1,11 +1,13 @@
 import React from 'react'
+
 import './Style.css'
+
 
 function Skills() {
   return (
     <div>
         <div className='skills'>
-            <h1>My <span>Skills</span></h1>
+            <h1>My <span>Skills</span></h1>    
             <div className='cards'>
             <div className='card1'>
                 <i class="fa-solid fa-code"></i>
@@ -19,8 +21,8 @@ function Skills() {
             </div>
             </div>
         </div>
+        </div>
 
-    </div>
   )
 }
 

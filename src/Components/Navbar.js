@@ -1,6 +1,7 @@
 import React from 'react'
 import './Style.css'
 
+
 function Navbar() {
   return (
     <div>
@@ -27,6 +28,8 @@ function Navbar() {
     </div>
     </div>
   )
+
 }
+  
 
 export default Navbar
