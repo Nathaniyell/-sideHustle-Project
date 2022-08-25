@@ -4,7 +4,7 @@ import './Style.css'
 function ContactMe() {
   return (
     <div>
-        <footer>
+        <footer id='contact'>
        
             <div>
                <h1>Contact <span>Me</span></h1>

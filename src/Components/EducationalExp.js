@@ -3,7 +3,7 @@ import './Style.css'
 function EducationalExp() {
   return (
     <div>
-        <div className='eduEx'>
+        <div className='eduEx' id='experience'>
             <h1>Eductional <span>Experience</span></h1>
             <div className='cards2' data-aos="fade-right" data-aos-duration='2000'>
             <div className='card1'>

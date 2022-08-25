@@ -6,7 +6,7 @@ import './Style.css'
 function Skills() {
   return (
     <div>
-        <div className='skills'>
+        <div className='skills' id='skills'>
             <h1>My <span>Skills</span></h1>    
             <div className='cards'>
             <div className='card1'>
