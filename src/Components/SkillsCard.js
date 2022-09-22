@@ -6,12 +6,14 @@ import "aos/dist/aos.css"
 
 const skillsDetails = [
     {
+        id: 'e2',
         logo: <FaCode />,
         header: "Front-End Web Development",
         text: "Proficiency in HTML, CSS, Bootstrap, JavaScript, jQuery and ReactJs for rapid creation of responsive webpages while adding functionalities where necessary.",
         value: "zoom-in-right"
     },
     {
+        id: 'e4',
         logo: <FaPeopleArrows />,
         header: "Teamwork",
         text: "Adept at effective communication, multitasking, attention to details and other skills which are vital for achieving outstanding results during collaborations.",
@@ -22,6 +24,7 @@ const skillsDetails = [
 
 
 const SkillsCard = ({ icon, title, details, aos }) => {
+
     useEffect(() => {
         Aos.init({ duration: 2000 })
     }, [])
@@ -33,10 +36,11 @@ const SkillsCard = ({ icon, title, details, aos }) => {
         </div>
     )
 }
+
 const skillElements = skillsDetails.map((elem) => {
     return (
         <SkillsCard
-            key={Math.round(Math.random() * 10)}
+            key={elem.id}
             icon={elem.logo}
             title={elem.header}
             details={elem.text}

@@ -58,7 +58,7 @@ button:hover {
 .nav-mobile {
     background-color: #474343;
     position: absolute;
-    right: 35px;
+    /* right: 35px; */
     top: 80px;
     width: 300px;
     height: 250px;
@@ -192,7 +192,6 @@ img {
 .card1 {
     background-color: #fff;
     padding: 30px 15px;
-    z-index: -99999999;
     margin: 0 auto;
     border-radius: 10px;
     box-shadow: 4px 5px 10px rgba(110, 107, 107, 0.5);
@@ -257,6 +256,7 @@ img {
     align-items: center;
     justify-content: space-around;
     height: 400px;
+    width: 100%;
 }
 
 .practical h1 {
@@ -283,7 +283,7 @@ footer {
     margin: 0 auto;
     text-align: center;
     background-color: #f0f8ff;
-    height: 100vh;
+    height: 100%;
 }
 
 footer div h1 {
@@ -405,11 +405,6 @@ footer div h1 span {
         flex-direction: column;
 
     }
-
-    footer {
-        height: 60vh;
-    }
-
 }
 
 @media (max-width: 585px) {
